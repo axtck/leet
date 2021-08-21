@@ -1,8 +1,4 @@
-/**
- * @param {number} num
- * @return {string}
- */
-var intToRoman = function (num) {
+const intToRoman = (num) => {
     let roman = "";
 
     // list symbols and vals
