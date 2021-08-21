@@ -1,3 +1,4 @@
+// convert integer values to roman symbols (taking exceptions into account)
 const intToRoman = (num) => {
     let roman = "";
 
@@ -19,3 +20,8 @@ const intToRoman = (num) => {
 
     return roman;
 };
+
+console.log(intToRoman(44));
+console.log(intToRoman(49));
+console.log(intToRoman(4));
+console.log(intToRoman(5578));
